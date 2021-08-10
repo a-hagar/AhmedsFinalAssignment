@@ -8,7 +8,7 @@ const app = document.getElementById("app");
 headerTitle(app, json.homepage.title, json.homepage.subhead, json.homepage.author);
 
 document.querySelector('.nav').innerHTML = `
-  <a href="pages/quality-assurance.html">Quality Assurance</a>
-  <a href="pages/security.html">Security</a>
-  <a href="pages/bad-example.html">Bad Example</a>
+  <a href="quality-assurance.html">Quality Assurance</a>
+  <a href="security.html">Security</a>
+  <a href="bad-example.html">Bad Example</a>
 `
