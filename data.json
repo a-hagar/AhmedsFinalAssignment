@@ -1,0 +1,22 @@
+{
+    "homepage": {
+        "title": "Assignment #4 Splash Page",
+        "subhead": "Built with Vite, Sass, and ES6",
+        "author": "Ahmed"
+    },
+
+    "navigation": {
+        "nav1":{
+            "title":"Quality Assurance",
+            "url" : "pages/quality-assurance.html"
+        },
+        "nav2":{
+            "title":"Security",
+            "url" : "pages/security.html"
+        },
+        "nav3":{
+            "title":"Bad Example",
+            "url" : "pages/bad-example.html"
+        }
+    }
+}

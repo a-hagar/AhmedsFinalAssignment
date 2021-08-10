@@ -1,0 +1,55 @@
+$header-color: #ff3838;
+$link-color: #4d7527;
+$font: Avenir, Helvetica, Arial, sans-serif;
+
+#app {
+  font-family: $font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: $header-color;
+  margin-top: 60px;
+}
+
+#app #subhead{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#app #author{
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav{
+  display: inline;
+  position: absolute;
+  font-family: $font;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav a{
+  color: $link-color;
+  font-weight: 600;
+  text-decoration: underline 0.15em #00000000;
+  transition: text-decoration-color 300ms;
+}
+
+.nav a:hover{
+  text-decoration-color: #000000;
+}
+
+.nav a:visited{
+  color: none;
+}
+
+.nav a:not(:last-child){
+  padding-right: 10px;
+
+}
