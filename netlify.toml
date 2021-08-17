@@ -1,5 +1,5 @@
 [[headers]]
-  for = "../index.html, ../q-a/quality-assurance.html, ../security/security.html"
+  for = "/index.html"
   [headers.values]
     X-Frame-Options = "DENY"
     Content-Security-Policy = "script-src 'self'"
