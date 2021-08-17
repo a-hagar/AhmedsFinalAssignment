@@ -4,13 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <title>Security | HTTP5201 Final Assignment</title>
   </head>
   <body>
+    <header>
+      <div id="app"></div>
+      <nav>
+        <a class="nav-item" href="../qa/quality-assurance.html">Quality Assurance</a>
+        <a class="nav-item" href="../security/security.html">Security</a>
+        <a class="nav-item" href="../bad/bad-example.html">Bad Example</a>
+      </nav>
+    </header>
     <div class="main">
-        <h1 class="title">Security</h1>
         <a id="return" href="../index.html"> Go Back</a>
+        <h1 class='pageTitle'>Security</h1>
     </div>
+    <p>This site has security headers to protect users from potential risks such as:</p>
+    <ul>
+      <li>Cross-site scripting</li>
+      <li>Sensitive Data Exposure</li>
+      <li>Broken Access Control</li>
+    </ul>
+    <p>This site does not collect information from users so that no sensitive data will be exposed if this site is hacked. By not being connected to a database, SQL injections will not impact this site.</p>
+    <p>If you want to see what a bad example of security, <a href="../bad/bad-example.html">click here</a>.</p>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

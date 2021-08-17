@@ -4,13 +4,40 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <title>Bad Example | HTTP5201 Final Assignment</title>
   </head>
   <body>
+    <header>
+      <div id="app"></div>
+      <nav>
+        <a class="nav-item" href="../qa/quality-assurance.html">Quality Assurance</a>
+        <a class="nav-item" href="../security/security.html">Security</a>
+        <a class="nav-item" href="../bad/bad-example.html">Bad Example</a>
+      </nav>
+    </header>
     <div class="main">
-        <h1>Bad Example</h1>
         <a id="return" href="../index.html"> Go Back</a>
+        <h1 class='pageTitle'>Bad Example</h1>
+        <p id='errorMsg'></p>
+        <form id="form" method="POST">
+          <label>Fill out this form for some useful info</label>
+          <div>
+            <input type="text" id="name" placeholder="Name">
+            </div>
+            <div>
+            <input type="email" id='email' placeholder="Email">
+          </div>
+          <button id="send">Send</button>
+        </form>
+        <div id="usefulInfo">
+          <p>Hey, <span id="form-name"></span>, remember to be careful where you give out your info online!</p>
+          <p>The security headers for this site exclude this page, so this page does not have any protection from XSS attacks</p>
+          <p>This page's form is not secure, since it is not connected to a database. So your email "<span id="form-email"></span>" could be exposed.</p>
+        </div>
+
     </div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" async defer src="/main.js"></script>
   </body>
 </html>

@@ -4,10 +4,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint" : "eslint ./"
+
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
     "sass": "^1.37.5",
     "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "@exampledev/new.css": "^1.1.3"
   }
 }

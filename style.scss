@@ -1,55 +1,33 @@
-$header-color: #ff3838;
-$link-color: #4d7527;
-$font: Avenir, Helvetica, Arial, sans-serif;
 
-#app {
-  font-family: $font;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: $header-color;
-  margin-top: 60px;
+#app{
+  margin-bottom: 20px;
 }
 
-#app #subhead{
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.nav-item:not(:last-child){
+  padding-right: 20px;
 }
 
-#app #author{
-  position: absolute;
-  top: 12%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.pageTitle{
+  padding-right: 50px;
 }
 
-.nav{
-  display: inline;
-  position: absolute;
-  font-family: $font;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#return{
+  float: right;
 }
 
-.nav a{
-  color: $link-color;
-  font-weight: 600;
-  text-decoration: underline 0.15em #00000000;
-  transition: text-decoration-color 300ms;
+#errorMsg{
+  display: none;
+  color: red;
+  font-weight: 800;
 }
 
-.nav a:hover{
-  text-decoration-color: #000000;
+#usefulInfo{
+  display: none;
 }
 
-.nav a:visited{
-  color: none;
+a{
+  text-decoration: none;
 }
-
-.nav a:not(:last-child){
-  padding-right: 10px;
-
+a:hover{
+  color: red;
 }
