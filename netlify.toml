@@ -9,7 +9,7 @@
     Strict-Transport-Security = 'max-age=63072000'
 
 [[headers]]
-  for = "/q-a/quality-assurance.html"
+  for = "/qa/quality-assurance.html"
   [headers.values]
     X-Frame-Options = "DENY"
     Content-Security-Policy = "script-src 'self'"
