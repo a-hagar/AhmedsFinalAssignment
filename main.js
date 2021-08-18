@@ -42,3 +42,5 @@ submit.onclick = function showUsefulInfo(){
 
     }
 }
+
+export { headerTitle };
